@@ -86,7 +86,7 @@ $$
 
 where $\mu$ is the friction coefficient, $\mu_s$ and $\mu_d$ are the static and dynamic friction coefficients, $D$ is the block slip.
 
-The input parameters used in the simulations are chosen in such a way that the area under the weakening part of the shear stress vs. slip curve (energy curve) $E_w$ is approximately the same for all failure laws. The area under the strengthening part of the curve $E_s$ is approximately the same for most of the failure laws $(E_s = 0$ for SW by definition).
+The input parameters used in the simulations are chosen in such a way that the area under the weakening part of the shear stress vs. slip curve (energy curve) $E_w$ is approximately the same for all failure laws. The area under the strengthening part of the curve $E_s$ is approximately the same for most of the failure laws $(E_s = 0$ for SW by definition). Both $E_w$ and $E_s$ equal zero for the Reference model.
 
 Different failure laws that produce very similar coseismic ruptures can have substantially different nucleation phases and pre-nucleation slip rate and slip evolution. This also results in differences in recurrence intervals, maximum coseismic slip rate, and cumulative slip amount per earthqake cycle.
 
@@ -103,22 +103,21 @@ Different failure laws that produce very similar coseismic ruptures can have sub
 - LICENSE
 
 ### *spring_slider_DSWIS*
-Analytically solves non-dimensional equation (1) with a generic linear friction segment, shows the three solution regimes: $K_k^f < K$ - harmonic oscillations, $K_k^f=K$ - cubic growth solution, and $K_k^f>K$ - exponential growth solution.
+Numerically solves non-dimensional equation (1) with a DSWIS failure law (6), plots the output for several earthquake cycles, saves the data in Data_FL folder (necessary to then plot comparative plots). Two data sets are produced by this script: Steep to gentle (DSWIS 1) and Gentle to steep (DSWIS 2).
 ### *spring_slider_EXP*
-Analytically solves the 1D dynamic spring slider equation with a double slip weakening with initial strengthening (DSWIS) failure law (2). Shows full analytic solutions for each segment with initial conditions from the previous segment.
+Numerically solves non-dimensional equation (1) with an ECZ failure law (4), plots the output for several earthquake cycles, saves the data in Data_FL folder (necessary to then plot comparative plots).
 ### *spring_slider_PAR*
-Mostly analytically (the equation to find the duration of different phases does not have analytical solutions, thus we solve for them numerically) solves equation (1) with DSWIS (2) and produces plots for a single set of failure law parameters: energy curves, phase diagrams, slip rate and slip vs. time for several earthquake cycles, slip and slip rate plot for different phases separately, spectra.
+Numerically solves non-dimensional equation (1) with a PCZ failure law (5), plots the output for several earthquake cycles, saves the data in Data_FL folder (necessary to then plot comparative plots).
 ### *spring_slider_RS_aging_law*
-Mostly analytically (same as above) solves equation (1) with DSWIS (2) and produces plots for several sets of failure law parameters (with the same axis scales) for comparison. Different sets of parameters (3 to 8 failure laws) are given as examples.
+Numerically solves non-dimensional equation (1) with RS friction with aging state variable evolution law (2), plots the output for several earthquake cycles, saves the data in Data_FL folder (necessary to then plot comparative plots).
 ### *spring_slider_SW*
-Estimates the lower bound on frequency of the oscillatoric solution of block slip with poly-linear friction for a range of fault lengths and slip-weakening distances, assuming the block goes through a single oscillation during the weakening process.
+Numerically solves non-dimensional equation (1) with SW friction (3), plots the output for several earthquake cycles, saves the data in Data_FL folder (necessary to then plot comparative plots).
 ### *Process_and_plot_data_for_several_FL*
-Analytically solves non-dimensional equation (1) with a generic linear friction segment, shows the three solution regimes: $K_k^f < K$ - harmonic oscillations, $K_k^f=K$ - cubic growth solution, and $K_k^f>K$ - exponential growth solution.
+Processes data from Data_FL repository for different failure laws. Plots slip and slip rate for the full cycle, energy curves, phase diagrams, spectra etc. 
 
 ## Reference
-Please refer the following article if you use EQcycle_polylinear for your research:
-
-E. Bolotskaya and B.H. Hager; A 1D Spring‐Slider Model with a Simple Poly‐Linear Failure Law Produces Rich Variations in Slip Behavior. Bull. Seismol. Soc. Am. 2022; doi: https://doi.org/10.1785/0120220052
+The results obtained in these scripts will be part of my Thesis (Bolotskaya 2022 - MIT Thesis) and potentially a publication.
+Please contact me if you use EQcycle_failure_laws for your research and would like a citation.
 
 Release on Zenodo:
 
