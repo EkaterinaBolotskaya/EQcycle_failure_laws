@@ -113,7 +113,7 @@ Numerically solves non-dimensional equation (1) with RS friction with aging stat
 ### *spring_slider_SW*
 Numerically solves non-dimensional equation (1) with SW friction (3), plots the output for several earthquake cycles, saves the data in Data_FL folder (necessary to then plot comparative plots).
 ### *Process_and_plot_data_for_several_FL*
-Processes data from Data_FL repository for different failure laws. Plots slip and slip rate for the full cycle, energy curves, phase diagrams, spectra etc. 
+Processes the data from Data_FL repository for different failure laws. Plots slip and slip rate for the full cycle, energy curves, phase diagrams, spectra, slip and slip rate by phase etc. 
 
 ## Reference
 The results obtained in these scripts will be part of my Thesis (Bolotskaya 2022 - MIT Thesis) and potentially a publication.
