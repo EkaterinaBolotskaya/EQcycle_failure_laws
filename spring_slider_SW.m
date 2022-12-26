@@ -280,7 +280,7 @@ fprintf('Time = %.4f s \n', t(lmin(pn+1))-t(locs(pn)));
 
 %% Save to file
 if sd == 1
-    SW = [time(lmin(pn):lmin(pn+1))-time(lmin(pn)) v(lmin(pn):lmin(pn+1)) u_abs(lmin(pn):lmin(pn+1))-u_abs(lmin(pn)) tau(lmin(pn):lmin(pn+1)) ac(lmin(pn):lmin(pn+1))*M+tau(lmin(pn):lmin(pn+1))];
+    SW = [t(lmin(pn):lmin(pn+1))-t(lmin(pn)) v(lmin(pn):lmin(pn+1)) u_abs(lmin(pn):lmin(pn+1))-u_abs(lmin(pn)) tau(lmin(pn):lmin(pn+1)) ac(lmin(pn):lmin(pn+1))*M+tau(lmin(pn):lmin(pn+1))];
     save('Data_FL/SW.mat', 'SW');
 end
 
