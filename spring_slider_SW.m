@@ -29,7 +29,7 @@ clearvars;
 close all;
 
 % save data to file? 1 - yes
-sd = 1;
+sd = 0;
 
 %% Constitutive paramaters 
 Sn      = 20e6;                  % normal stress at depth of interest
