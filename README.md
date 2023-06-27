@@ -117,7 +117,7 @@ Processes the data from Data_FL repository for different failure laws. Plots sli
 
 ## Reference
 The results obtained in these scripts are part of my Thesis: 
-Bolotskaya, E., 2023. Effects of fault failure parameterization and bulk rheology on earthquake rupture (Doctoral dissertation, Massachusetts Institute of Technology).(Bolotskaya 2022 - MIT Thesis) 
+Bolotskaya, E., 2023. Effects of fault failure parameterization and bulk rheology on earthquake rupture (Doctoral dissertation, Massachusetts Institute of Technology).
 
 and a publication in prep.
 Please contact me if you use EQcycle_failure_laws for your research and would like a citation.
