@@ -116,7 +116,10 @@ Numerically solves non-dimensional equation (1) with SW friction (3), plots the 
 Processes the data from Data_FL repository for different failure laws. Plots slip and slip rate for the full cycle, energy curves, phase diagrams, spectra, slip and slip rate by phase etc. 
 
 ## Reference
-The results obtained in these scripts will be part of my Thesis (Bolotskaya 2022 - MIT Thesis) and potentially a publication.
+The results obtained in these scripts are part of my Thesis: 
+Bolotskaya, E., 2023. Effects of fault failure parameterization and bulk rheology on earthquake rupture (Doctoral dissertation, Massachusetts Institute of Technology).(Bolotskaya 2022 - MIT Thesis) 
+
+and a publication in prep.
 Please contact me if you use EQcycle_failure_laws for your research and would like a citation.
 
 Release on Zenodo:
