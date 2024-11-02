@@ -55,7 +55,7 @@ $$
     ,  \qquad \qquad \qquad \qquad (5)
 $$
 
-where $\mu$ is the friction coefficient, $\mu_s$ and $\mu_d$ are the static and dynamic friction coefficients, $D$ is the block slip, and $D_1$ and $D_2$ are the the slip-strengthening and slip-weakening distances respectively.
+where $\mu$ is the friction coefficient, $\mu_s$ and $\mu_d$ are the static and dynamic friction coefficients, $D$ is the block slip, and $D_1$ and $D_2$ are the slip-strengthening and slip-weakening distances respectively.
 
 <ins>__Double slip-weakening with initial strengthening (DSWIS) model:__</ins>
 
