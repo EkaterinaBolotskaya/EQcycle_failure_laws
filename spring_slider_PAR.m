@@ -23,7 +23,7 @@
 %      mu_d                                       if D > D_1+D_2
 
 % where mu_s and mu_d are the static and dynamic friction coefficients, 
-% D_1 and D_2 are the two slip distances which we call "slip-shift" and "slip-stretch" respectively.
+% D_1 and D_2 are the slip-strengthening and slip-weakening distances respectively.
 
 clearvars;
 close all;
