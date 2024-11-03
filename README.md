@@ -1,6 +1,7 @@
 # EQcycle_failure_laws
 
-Scripts used for producing Figure 9
+Scripts used for producing Figure 9 in:
+
 E. Bolotskaya, B.H. Hager, and J-P. Ampuero; Effects of failure parameterization on pre- and co-seismic earthquake rupture (submitted to GJI)
 
 ## Background
