@@ -120,10 +120,14 @@ Numerically solves non-dimensional equation (1) with SW friction (3), plots the 
 Processes the data from Data_FL repository for different failure laws. Plots slip and slip rate for the full cycle, energy curves, phase diagrams, spectra, slip and slip rate by phase etc. 
 
 ## Reference
-The results obtained in these scripts are part of my Thesis: 
+The results obtained in these scripts are part of my Thesis:
+
 Bolotskaya, E., 2023. Effects of fault failure parameterization and bulk rheology on earthquake rupture (Doctoral dissertation, Massachusetts Institute of Technology).
 
-and a publication submitted to GJI (E. Bolotskaya, B.H. Hager, and J-P. Ampuero; Effects of failure parameterization on pre- and co-seismic earthquake rupture).
+and a publication submitted to GJI:
+
+E. Bolotskaya, B.H. Hager, and J-P. Ampuero; Effects of failure parameterization on pre- and co-seismic earthquake rupture
+
 Please contact me if you use EQcycle_failure_laws for your research and would like a citation.
 
 Release on Zenodo:
