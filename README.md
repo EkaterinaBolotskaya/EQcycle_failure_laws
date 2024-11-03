@@ -1,5 +1,8 @@
 # EQcycle_failure_laws
 
+Scripts used for producing Figure 9
+E. Bolotskaya, B.H. Hager, and J-P. Ampuero; Effects of failure parameterization on pre- and co-seismic earthquake rupture (submitted to GJI)
+
 ## Background
 1D spring-slider model is often used to simulate earthquake cycles. Failure law prescribed between the block and the rough surface plays an important role in the system behavior. This repository contains MATLAB scripts that numerically solve the equation of motion for 1D spring-slider system: 
 
@@ -119,7 +122,7 @@ Processes the data from Data_FL repository for different failure laws. Plots sli
 The results obtained in these scripts are part of my Thesis: 
 Bolotskaya, E., 2023. Effects of fault failure parameterization and bulk rheology on earthquake rupture (Doctoral dissertation, Massachusetts Institute of Technology).
 
-and a publication in prep.
+and a publication submitted to GJI (E. Bolotskaya, B.H. Hager, and J-P. Ampuero; Effects of failure parameterization on pre- and co-seismic earthquake rupture).
 Please contact me if you use EQcycle_failure_laws for your research and would like a citation.
 
 Release on Zenodo:
