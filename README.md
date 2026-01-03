@@ -2,7 +2,7 @@
 
 Scripts used for producing Figure 9 in:
 
-E. Bolotskaya, B.H. Hager, and J-P. Ampuero; Effects of failure parameterization on pre- and co-seismic earthquake rupture (submitted to GJI)
+Bolotskaya, E., Hager, B., & Ampuero, J. P. (2025). Effects of failure parameterization on pre-and co-seismic earthquake rupture. Geophysical Journal International, 240(3), 1538-1550.
 
 ## Background
 1D spring-slider model is often used to simulate earthquake cycles. Failure law prescribed between the block and the rough surface plays an important role in the system behavior. This repository contains MATLAB scripts that numerically solve the equation of motion for 1D spring-slider system: 
@@ -120,11 +120,13 @@ Numerically solves non-dimensional equation (1) with SW friction (3), plots the 
 Processes the data from Data_FL repository for different failure laws. Plots slip and slip rate for the full cycle, energy curves, phase diagrams, spectra, slip and slip rate by phase etc. 
 
 ## Reference
-The results obtained in these scripts are part of [my Thesis](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=z2lDhmcAAAAJ&citation_for_view=z2lDhmcAAAAJ:YsMSGLbcyi4C): Bolotskaya, E., 2023. Effects of fault failure parameterization and bulk rheology on earthquake rupture (Doctoral dissertation, Massachusetts Institute of Technology)
+Please refer the following article if you use EQcycle_failure_laws for your research:
 
-and a publication submitted to GJI: E. Bolotskaya, B.H. Hager, and J-P. Ampuero; Effects of failure parameterization on pre- and co-seismic earthquake rupture
+Bolotskaya, E., Hager, B., & Ampuero, J. P. (2025). Effects of failure parameterization on pre-and co-seismic earthquake rupture. Geophysical Journal International, 240(3), 1538-1550.
 
-Please contact me if you use EQcycle_failure_laws for your research and would like a citation.
+or 
+
+[my Thesis](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=z2lDhmcAAAAJ&citation_for_view=z2lDhmcAAAAJ:YsMSGLbcyi4C): Bolotskaya, E., 2023. Effects of fault failure parameterization and bulk rheology on earthquake rupture (Doctoral dissertation, Massachusetts Institute of Technology)
 
 Release on Zenodo:
 
